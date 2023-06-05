@@ -4,8 +4,6 @@ const checkbox = document.getElementById("checkbox");
 const passinput = document.getElementById("pass-input");
 const button = document.getElementById("button");
 
-console.log(passInput);
-
 checkbox.addEventListener("change", function () {
   if (checkbox.checked) {
     passInput.type = "text";
